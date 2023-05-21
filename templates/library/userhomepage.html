@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HOMEPAGE</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="{% static "js/html5shiv.js" %}"></script>
+		<script src="{% static "js/jquery.min.js" %}"></script>
+		<script src="{% static "js/skel.min.js" %}"></script>
+		<script src="{% static "js/skel-layers.min.js" %}"></script>
+		<script src="{% static "js/init.js" %}"></script>
+
+        <link rel="stylesheet" href="{% static "css/skel.css" %}" >
+        <link rel="stylesheet" href="{% static "css/style.css" %}" >
+        <link rel="stylesheet" href="{% static "css/style-xlarge.css" %}" >
+	</head>
+	<body id="top" style="background-image: url("{% static "images/banner.jpg" %})>
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="#">MYBRARY</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="left-sidebar.html">Books</a></li>
+						<li><a href="right-sidebar.html">Authors</a></li>
+						<li><a href="no-sidebar.html">Trending</a></li>
+						<li><a href="#" class="button special">Sign Up</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h2>THIS IS MYBRARY</h2>
+					<p>Largest Public Library in the state of Ontario</p>
+					<ul class="actions">
+						<li><a href="#content" class="button big special">Sign Up</a></li>
+						<li><a href="#elements" class="button big alt">Log in</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1">
+				<header class="major">
+					<h2>Browse through thousands of books and borrow it for a nominal cost </h2>
+					<p>* Terms and conditions apply</p>
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-book major"></i>
+								<h3>BOOKS COLLECTION</h3>
+								<p>Flick through our book library which boasts of the most diverse collection of authors and genres for rental.</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-truck major"></i>
+								<h3>Request a Book</h3>
+								<p>Didn't find what you were looking for? Well, no worries! Request us to order the book by sending an e-mail to us.</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-group major"></i>
+								<h3>Work with us</h3>
+								<p>Contact us for work from home jobs which offers a good pay and flexibility of time.</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<header class="major">
+					<h2>WHY CHOOSE MYBRARY?</h2>
+					<p>OUR PROUD ACHEIVEMENTS</p>
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="6u">
+							<section class="special">
+								<a href="#" class="image fit"><img src="{% static "/images/trophy.jpg" %}" alt="" style="height: 257.27px; width: 568px" /></a>
+								<h3>BEST LIBRARY AWARD</h3>
+								<p>Awarded the "BEST LIBRARY AWARD" for the decade in the whole province of Ontario, Canada.</p>
+								<ul class="actions">
+									<li><a href="#" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="6u">
+							<section class="special">
+								<a href="#" class="image fit"><img src="{% static "images/member.jpg" %}" alt="" style="height: 257.27px; width: 568px " /></a>
+								<h3>PROUD MEMBERS</h3>
+								<p>We have the largest community of members affiliated with us, which is, 35,228 members onboard and counting...</p>
+								<ul class="actions">
+									<li><a href="#" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row double">
+						<div class="6u">
+							<div class="row collapse-at-2">
+								<div class="6u">
+									<h3>Accumsan</h3>
+									<ul class="alt">
+										<li><a href="#">Nascetur nunc varius</a></li>
+										<li><a href="#">Vis faucibus sed tempor</a></li>
+										<li><a href="#">Massa amet lobortis vel</a></li>
+										<li><a href="#">Nascetur nunc varius</a></li>
+									</ul>
+								</div>
+								<div class="6u">
+									<h3>Faucibus</h3>
+									<ul class="alt">
+										<li><a href="#">Nascetur nunc varius</a></li>
+										<li><a href="#">Vis faucibus sed tempor</a></li>
+										<li><a href="#">Massa amet lobortis vel</a></li>
+										<li><a href="#">Nascetur nunc varius</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="6u">
+							<h2>CONNECT WITH US</h2>
+							<p>Follow our social accounts for latest updates and notifications personally and receive offers and discounts!</p>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Mybrary. All rights reserved.</li>
+						<li>Design: Mahaan Jain</li>
+					</ul>
+				</div>
+			</footer>
+	</body>
+</html>
